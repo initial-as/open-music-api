@@ -49,7 +49,7 @@ Debug: handler, error
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: handler, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "songs" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.persistAlbum (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:25:5)
@@ -60,7 +60,7 @@ Debug: handler, error
     at async Request._lifecycle (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:370:32)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: internal, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "songs" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.persistAlbum (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:25:5)
@@ -71,7 +71,7 @@ Debug: internal, error
     at async Request._lifecycle (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:370:32)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: handler, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.getAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:36:22)
@@ -82,7 +82,7 @@ Debug: handler, error
     at async Request._lifecycle (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:370:32)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: internal, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.getAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:36:22)
@@ -138,7 +138,7 @@ Debug: handler, error
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: handler, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.editAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:51:22)
@@ -149,7 +149,7 @@ Debug: handler, error
     at async Request._lifecycle (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:370:32)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: internal, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.editAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:51:22)
@@ -178,7 +178,7 @@ Debug: handler, error
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: handler, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.deleteAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:64:22)
@@ -189,7 +189,7 @@ Debug: handler, error
     at async Request._lifecycle (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:370:32)
     at async Request._execute (D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\@hapi\hapi\lib\request.js:280:9)
 Debug: internal, error
-    Error: connect ECONNREFUSED ::1:5432
+    error: relation "albums" does not exist
     at D:\Dev\Laragon\www\dicoding\open-music-api\node_modules\pg-pool\index.js:45:11
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async AlbumsService.deleteAlbumById (D:\Dev\Laragon\www\dicoding\open-music-api\src\services\postgres\AlbumsService.js:64:22)
